@@ -22,9 +22,9 @@ public class Main {
         Checker checker = new Checker();
         boolean isEven = checker.isEven(a);
         boolean isOdd = checker.isOdd(a);
-        System.out.println("Первое число четное: ");
+        System.out.println("Число четное: ");
         System.out.println(isEven);
-        System.out.println("Первое число нечетное: ");
+        System.out.println("Число нечетное: ");
         System.out.println(isOdd);
     }
 }

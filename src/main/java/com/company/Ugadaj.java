@@ -6,7 +6,7 @@ public class Ugadaj {
         int n = 0;
         Integer user_number;
         Scanner input = new Scanner(System.in);
-        System.out.println("ДАВАЙТЕ ПОИГРАЕМ! Я угадаю Ваше число!");
+        System.out.println("ДАВАЙТЕ ПОИГРАЕМ!! Я угадаю Ваше число!");
         int search_results = (int) (Math.random() * 100);
         System.out.print("Введите ваше число: ");
         user_number = input.nextInt();
