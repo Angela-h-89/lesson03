@@ -1,7 +1,8 @@
-package main.java.com.company.util;
+package com.company.util;
 
 public class Checker {
     public boolean isEven(int number) {
+        //return false;
         if (number % 2 == 0) {
             return true;
         } else {
@@ -9,6 +10,7 @@ public class Checker {
         }
     }
     public boolean isOdd(int number) {
+        //return true;
         if (number % 2 != 0) {
             return true;
         } else {

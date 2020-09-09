@@ -1,6 +1,6 @@
-package main.java.com.company;
+package com.company;
 
-import main.java.com.company.util.Checker;
+import com.company.util.Checker;
 import java.util.Scanner;
 
 public class Main {
@@ -22,9 +22,9 @@ public class Main {
         Checker checker = new Checker();
         boolean isEven = checker.isEven(a);
         boolean isOdd = checker.isOdd(a);
-        System.out.println("Число четное: ");
+        System.out.println("Первое число четное: ");
         System.out.println(isEven);
-        System.out.println("Число нечетное: ");
+        System.out.println("Первое число нечетное: ");
         System.out.println(isOdd);
     }
 }
